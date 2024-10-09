@@ -1,3 +1,3 @@
 final: prev: {
-    mul-upload-client = import ./derivation.nix;
+    mul-upload-client = import ./package.nix;
 }

@@ -1,3 +1,3 @@
 { pkgs ? import <nixpkgs> {} }:
 
-pkgs.callPackage ./derivation.nix { inherit pkgs; }
+pkgs.callPackage ./package.nix { inherit pkgs; }
